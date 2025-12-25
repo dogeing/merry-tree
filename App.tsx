@@ -18,11 +18,12 @@ const DEPLOY_CONFIG = {
   // 2. 默认照片列表
   // 填写 public 文件夹下的图片文件名。
   // 如果您还没上传照片，请保持数组为空 []，否则会出现白色方块。
+  // 修复：添加 as string[] 类型断言，防止 TS 报错
   defaultPhotos: [
     // "photo1.jpg", 
     // "photo2.jpg",
     // "photo3.jpg"
-  ],
+  ] as string[],
 
   // 3. 默认欢迎语
   defaultText: "HAPPY NEW YEAR"
