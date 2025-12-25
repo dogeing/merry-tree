@@ -31,7 +31,7 @@ const DEPLOY_CONFIG = {
   ] as string[],
 
   // 3. 默认欢迎语
-  defaultText: "HAPPY NEW YEAR"
+  defaultText: "XIAO LU MERRY CHRISTMAS"
 };
 
 const INITIAL_CONFIG: ParticleConfig = {
