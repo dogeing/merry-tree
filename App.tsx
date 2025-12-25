@@ -20,9 +20,11 @@ const DEPLOY_CONFIG = {
   // 如果您还没上传照片，请保持数组为空 []，否则会出现白色方块。
   // 修复：添加 as string[] 类型断言，防止 TS 报错
   defaultPhotos: [
-    // "photo1.jpg", 
-    // "photo2.jpg",
-    // "photo3.jpg"
+    "photo1.jpg", 
+    "photo2.jpg",
+    "photo3.jpg",
+     "photo4.jpg",
+     "photo5.jpg",
   ] as string[],
 
   // 3. 默认欢迎语
