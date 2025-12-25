@@ -1,0 +1,7 @@
+{
+  "name": "Winter Magic: Gesture Christmas Tree",
+  "description": "A high-performance 3D Christmas tree experience using Three.js and MediaPipe Hands. Control a particle system with hand gestures, upload your own photos as cloud ornaments, and enjoy a cinematic winter atmosphere.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
