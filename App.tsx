@@ -6,22 +6,26 @@ import { TreeState, ParticleConfig, AppState } from './types';
 
 // --- 部署配置 (DEPLOYMENT CONFIGURATION) ---
 // 自定义您的初始资源：
-// 1. 将音乐和图片放入项目的 'public' 文件夹中。
-// 2. 在下方填入文件名 (例如 "/music.mp3", "/photo1.jpg")。
+// 1. 在 GitHub 上创建一个 'public' 文件夹 (新建文件命名为 public/.gitkeep)。
+// 2. 将音乐和图片上传到 'public' 文件夹中。
+// 3. 在下方填入文件名 (建议不要加斜杠，例如 "music.mp3")。
+
 const DEPLOY_CONFIG = {
   // 1. 默认背景音乐
-   defaultBgm: "music1.mp3", 
-      // 留空则无音乐，或者填入 public 目录下的路径，例如: "/bgm.mp3"p3"defaultBgm: "",   // 2. 默认照片列表
-  // 在数组中填入 public 目录下的图片路径
+  // 注意：文件名必须与 public 文件夹里的一模一样（区分大小写）
+  defaultBgm: "music1.mp3", 
+
+  // 2. 默认照片列表
+  // 填写 public 文件夹下的图片文件名。
+  // 如果您还没上传照片，请保持数组为空 []，否则会出现白色方块。
   defaultPhotos: [
-    // 例如:
-    // "/photo1.jpg",
-    // "/photo2.jpg",
-    // "/photo3.jpg"
+    // "photo1.jpg", 
+    // "photo2.jpg",
+    // "photo3.jpg"
   ],
 
   // 3. 默认欢迎语
-  defaultText: "MERRY CHRISTMAS"
+  defaultText: "HAPPY NEW YEAR"
 };
 
 const INITIAL_CONFIG: ParticleConfig = {
