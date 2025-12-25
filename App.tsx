@@ -10,7 +10,7 @@ import { TreeState, ParticleConfig, AppState } from './types';
 // 2. 在下方填入文件名 (例如 "/music.mp3", "/photo1.jpg")。
 const DEPLOY_CONFIG = {
   // 1. 默认背景音乐
-  "/music1.mp3"
+   defaultBgm: "music1.mp3", 
       // 留空则无音乐，或者填入 public 目录下的路径，例如: "/bgm.mp3"p3"defaultBgm: "",   // 2. 默认照片列表
   // 在数组中填入 public 目录下的图片路径
   defaultPhotos: [
